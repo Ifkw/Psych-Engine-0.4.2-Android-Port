@@ -3,76 +3,87 @@
 		{
 			"loop": false,
 			"offsets": [
-				0,
-				0
+				-140,
+				90
 			],
 			"anim": "idle",
 			"fps": 24,
-			"name": "DaveIDLE",
+			"name": "Expunged Idle",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				8,
-				-4
+				-102,
+				-110
 			],
 			"anim": "singDOWN",
 			"fps": 24,
-			"name": "DaveDown",
+			"name": "Expunged Down",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				-7,
-				-6
+				172,
+				41
 			],
 			"anim": "singLEFT",
 			"fps": 24,
-			"name": "DaveLeft",
+			"name": "Expunged Left",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				9,
-				-3
+				-320,
+				227
 			],
 			"anim": "singRIGHT",
 			"fps": 24,
-			"name": "DaveRIGHT",
+			"name": "Expunged Right",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				69,
-				11
+				-108,
+				93
 			],
 			"anim": "singUP",
 			"fps": 24,
-			"name": "DaveUP",
+			"name": "Expunged Up",
 			"indices": []
+		},
+		{
+			"offsets": [
+				-129,
+				99
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "expungedlipsync",
+			"loop": false,
+			"name": "expungedlipsync"
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/DaveTT",
+	"image": "characters/Unfair",
 	"position": [
-		100,
-		180
+		160,
+		-160
 	],
-	"healthicon": "davenor",
-	"flip_x": true,
+	"healthicon": "expunged",
+	"flip_x": false,
 	"healthbar_colors": [
+		140,
 		0,
-		0,
-		180
+		0
 	],
 	"camera_position": [
-		110,
+		-130,
 		-20
 	],
 	"sing_duration": 6.1,
-	"scale": 1
+	"scale": 1.1
 }

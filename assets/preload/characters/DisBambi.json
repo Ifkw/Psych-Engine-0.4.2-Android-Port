@@ -8,70 +8,70 @@
 			],
 			"anim": "idle",
 			"fps": 24,
-			"name": "DaveIDLE",
+			"name": "Disruption Bambi Idle",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				8,
-				-4
+				-92,
+				-110
 			],
 			"anim": "singDOWN",
 			"fps": 24,
-			"name": "DaveDown",
+			"name": "Disruption Bambi Down",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				-7,
-				-6
+				-68,
+				-9
 			],
 			"anim": "singLEFT",
 			"fps": 24,
-			"name": "DaveLeft",
+			"name": "Disruption Bambi Left",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				9,
-				-3
+				170,
+				-13
 			],
 			"anim": "singRIGHT",
 			"fps": 24,
-			"name": "DaveRIGHT",
+			"name": "Disruption Bambi Right",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				69,
-				11
+				-16,
+				110
 			],
 			"anim": "singUP",
 			"fps": 24,
-			"name": "DaveUP",
+			"name": "Disruption Bambi Up",
 			"indices": []
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/DaveTT",
+	"image": "characters/DisBambi",
 	"position": [
-		100,
-		180
+		-90,
+		-60
 	],
-	"healthicon": "davenor",
+	"healthicon": "disruptionbambi",
 	"flip_x": true,
 	"healthbar_colors": [
 		0,
-		0,
-		180
+		62,
+		0
 	],
 	"camera_position": [
 		110,
-		-20
+		170
 	],
 	"sing_duration": 6.1,
 	"scale": 1
