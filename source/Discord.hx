@@ -1,4 +1,3 @@
-#if !mobile
 package;
 
 import Sys.sleep;
@@ -12,7 +11,7 @@ class DiscordClient
 	{
 		trace("Discord Client starting...");
 		DiscordRpc.start({
-			clientID: "863222024192262205",
+			clientID: "921727546373046292",
 			onReady: onReady,
 			onError: onError,
 			onDisconnected: onDisconnected
@@ -40,7 +39,7 @@ class DiscordClient
 			details: "In the Menus",
 			state: null,
 			largeImageKey: 'icon',
-			largeImageText: "Psych Engine"
+			largeImageText: "Dave's Revenge"
 		});
 	}
 
@@ -86,4 +85,3 @@ class DiscordClient
 		//trace('Discord RPC Updated. Arguments: $details, $state, $smallImageKey, $hasStartTimestamp, $endTimestamp');
 	}
 }
-#end
